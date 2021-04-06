@@ -58,6 +58,7 @@ func init() {
 		name:                  "desktop-launch",
 		summary:               desktopLaunchSummary,
 		implicitOnClassic:     true,
+		implicitOnCore:        true,
 		baseDeclarationPlugs:  desktopLaunchBaseDeclarationPlugs,
 		baseDeclarationSlots:  desktopLaunchBaseDeclarationSlots,
 		connectedPlugAppArmor: desktopLaunchConnectedPlugAppArmor,
